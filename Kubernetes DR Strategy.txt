@@ -1,0 +1,67 @@
+
+Network
+Subnetes
+
+Vnet Peering
+
+Kubernetes cluster
+App hosting
+
+Traffic manager
+Endpoints
+
+
+kubernetes, high avilabilty featuers
+
+Cloud avaibility zones
+
+Region availability
+
+Paired regions
+
+RPO -Recovery point of object
+RTO - Recovery time of object
+
+
+
+
+
+
+
+
+
+
+-------------------
+Primary site
+
+east-primary-rg
+Vnet - Primary-vnet
+10.170.0.0/16
+
+Subnet -primary-subnet
+10.170.0.0/22
+
+Jenkins primary - 
+
+Password - -----
+
+
+primaryjenkins.eastus.cloudapp.azure.com
+
+----------------
+DR site
+central-dr-rg
+
+central-dr-eg
+vnet - dr-vnet
+10.180.0.0/16
+
+subnet - dr-subnet
+10.180.0.0/22
+
+Jenkins DR
+
+Passowrd -------
+
+
+jenkinsdr.centralus.cloudapp.azure.com

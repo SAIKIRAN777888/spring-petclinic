@@ -1,0 +1,6 @@
+touch - create file
+pwd-  present working directory
+ls -list files
+vi - to edit the file
+ls -a - to view hidden files
+CD - to open folder
